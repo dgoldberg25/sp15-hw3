@@ -1,0 +1,19 @@
+<p>USERS</p>
+<%@users.each do |user|%>
+	<p>username: <%= user.username %></p>
+	<p>email: <%= user.email%></p>
+	<p>age: <%= user.age %></P>
+<%end%>
+
+<p>FRUIT(Todos)</p>
+<%@fruits.each do |fruit|%>
+	<p>name: <%= fruit.name %></p>
+	<p>location: <%= fruit.location%></p>
+	<p>season: <%= fruit.season %></p>
+<%end%>
+
+<p>CATS</p>
+<%@cats.each do |cat|%>
+	<p>name: <%= cat.name %></p>
+	<p>meow: <%= cat.meow%></p>
+<%end%>
